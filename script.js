@@ -57,6 +57,7 @@ document.querySelector('.check').addEventListener('click', function () {
     } else {
       displayMessage('☠ You lost the game!');
       displayScore(0);
+      document.querySelector('body').style.backgroundColor = '#FF0000';
     }
   }
 });
